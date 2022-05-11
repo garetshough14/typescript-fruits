@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "typescript-fruits",
-    "slug": "typescript-fruits",
+    "name": "ts-fruit-app",
+    "slug": "ts-fruit-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",

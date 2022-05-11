@@ -1,34 +1,37 @@
-interface FruitType{
+interface FruitType {
     id: number;
     name: string;
     price: number;
-}
-
-const FruitArray: FruitType[] = [
+    starred: boolean;
+  }
+  
+  const FruitsArray:FruitType[] = [
     {
-        id: 1,
-        name: "Mango",
-        price: 10,
+      id: 1,
+      name: "Mango",
+      price: 10,
+      starred: false,
     },
     {
-        id: 2,
-        name: "PineApple",
-        price: 20,
+      id: 2,
+      name: "Pineapple",
+      price: 20,
+      starred: false,
     },
     {
-        id: 3,
-        name: "Apple",
-        price: 12,
+      id: 3,
+      name: "Apple",
+      price: 12,
+      starred: false,
     },
     {
-        id: 4,
-        name: "Orange",
-        price: 7,
-    }
-];
+      id: 4,
+      name: "Orange",
+      price: 7,
+      starred: false,
+    },
+  ];
 
-const starredFruitsArray: FruitType[] = [
-
-];
-
-export {FruitType, FruitArray, starredFruitsArray};
+  
+  
+  export { FruitType, FruitsArray };
